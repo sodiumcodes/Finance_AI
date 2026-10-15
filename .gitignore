@@ -1,0 +1,36 @@
+
+# Secrets
+.env
+.env.*
+
+# Allow the example configuration
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local financial data
+data/*
+!data/samples/
+data/samples/*
+!data/samples/.gitkeep
+
+# Local vector database
+chroma/
+
+# IDE
+.vscode/
+.idea/
