@@ -158,13 +158,10 @@ CURRENCY_SYMBOL=₹
 
 ## Roadmap
 
-- [x] Phase 0–7 AI core (see GUIDE)
+- [ ] Phase 0–7 AI core (see GUIDE)
 - [ ] FastAPI backend wrapping `FinanceAgent.ask()` (streaming)
 - [ ] Frontend (chat + charts)
 - [ ] Persistent conversation memory
 - [ ] Budget goals and proactive monthly "insight digest"
 - [ ] OCR for scanned PDFs
 
-## License
-
-MIT (or your choice).
